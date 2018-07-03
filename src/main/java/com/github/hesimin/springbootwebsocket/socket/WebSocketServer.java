@@ -18,6 +18,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
 /**
+ * <p>
+ *     js测试工具： http://jsbin.com/wikifeqiza/edit?js,console
+ * </p>
+ *
  * var ws = new WebSocket("ws://localhost:8080/websocket");
  * ws.onopen = function(evt) {
  * console.log("Connection open ...");
@@ -30,6 +34,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
  * ws.onclose = function(evt) {
  * console.log("Connection closed.");
  * };
+ *
  * <p>
  * <p>
  * 另外可以使用更高级协议：STOMP
